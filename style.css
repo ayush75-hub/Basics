@@ -1,0 +1,33 @@
+.outer {
+  height: 50px;
+  width: 258px;
+  margin: 50px 0 0 200px;
+  display: flexbox;
+  background-color: aliceblue;
+  /* border: 1px solid black; */
+  border-radius: 4px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.innerdiv {
+  display: inline-block;
+  /* display: flexbox; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  margin: 10px 10px 10px 10px;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+
+  padding: 8px 8px 8px 8px;
+  /* display: inline-block; */
+}
+.material-symbols-outlined:hover {
+  border-radius: 50%;
+  background-color: rgb(56, 253, 52);
+  transition-delay: 10ms;
+  position: relative;
+  bottom: 3px;
+}
